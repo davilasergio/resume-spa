@@ -1,0 +1,48 @@
+.resume_navbar_container {
+    position:relative;
+    top:0;
+    left:0;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+    height:3.5em;
+    width:100%;
+    margin:auto;
+    background-color:white;
+    border-bottom:solid 2px black;
+}
+
+.navbar_title {
+    margin-left:2.5em;
+}
+
+.navbar_hyperlink_container {
+    width:12em;
+    margin-right:2.5em;
+    display:flex;
+    flex-direction:row;
+    align-items:space-between;
+    justify-content:space-between;
+}
+
+.navbar_hyperlink {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    padding:.5em;
+    border: solid 2px white;
+}
+
+
+.navbar_hyperlink:hover {
+    border:solid 2px black;
+    color: purple;
+    background-color:rgb(201, 201, 201);
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

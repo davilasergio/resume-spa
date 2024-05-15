@@ -1,0 +1,14 @@
+.pc_build_headline_title {
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    top:0;
+    left:0;
+    height:12%;
+    width:100%;
+    border-bottom:solid 2px black;
+    font-size:14px;
+    margin:0;
+    padding:0;
+}

@@ -1,0 +1,45 @@
+ .stack_piece_neutral {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:solid 2px rgb(147, 36, 169);
+    border-radius:10%;
+    width:3em;
+    height:3em;
+    margin-left:.2em;
+    margin-right:.2em;
+    margin-top:.2em;
+    margin-bottom:0;
+    padding:.1em;
+}
+
+.stack_piece_hovered {
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: solid 2px limegreen;
+    border-radius:10%;
+    background-color:rgb(197, 0, 197);
+    width:3em;
+    height:3em;
+    margin-left:.2em;
+    margin-right:.2em;
+    margin-top:.2em;
+    margin-bottom:0;
+    padding:.1em;
+}
+
+.stack_piece_image {
+    width:90%;
+    height:90%;
+}
+
+.stack_piece_title {
+    position:absolute;
+    bottom:3.5em;
+    padding:.2em;
+    background-color:rgb(201, 201, 201);
+    border:solid 2px black;
+}
